@@ -17,7 +17,7 @@ const app = express();
 // Global Middlewares
 app.use(express.json());
 
-const DB_URI = "mongodb+srv://nikhilgoswami18121999:n18121999@cluster0.crlqe.mongodb.net/?retryWrites=true&w=majority";
+const DB_URI = "mongodb+srv://nikhilgoswami18121999:F8ed9ZsyiU3yPaBO@cluster0.crlqe.mongodb.net/";
 
 
 
