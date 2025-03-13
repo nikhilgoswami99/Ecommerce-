@@ -17,7 +17,7 @@ const app = express();
 // Global Middlewares
 app.use(express.json());
 
-const DB_URI = "mongodb://localhost:27017/E-commerce"
+const DB_URI = "mongodb+srv://nikhilgoswami18121999:n18121999@G@cluster0.crlqe.mongodb.net/";
 
 
 // Modular Routes
