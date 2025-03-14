@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 const userModel = require("../model/user.model");
 const UserModel = require("../model/user.model");
 
-const JWT_SECRET_KEY = "My-JWT-key";
+const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 
 const register = async (req, res, next) => {
 
